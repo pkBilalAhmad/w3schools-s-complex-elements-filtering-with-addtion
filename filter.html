@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text">
+        <div id="btnDiv">
+            <button class="btn active" onclick="filter('all')">All</button>
+            <button class="btn" onclick="filter('cars')">Cars</button>
+            <button class="btn" onclick="filter('users')">Users</button>
+            <button class="btn" onclick="filter('buses')">Buses</button>
+        </div>
+        <div id="divs">
+            <div class="filterDiv users show">Bilal</div>
+            <div class="filterDiv cars">Honda</div>
+            <div class="filterDiv buses">Deawo</div>
+            <div class="filterDiv users">Fazal</div>
+            <div class="filterDiv cars">Corola</div>
+            <div class="filterDiv buses">Hino</div>
+            <div class="filterDiv users">Asim</div>
+            <div class="filterDiv cars">civic</div>
+            <div class="filterDiv buses">Nissan</div>
+            <div class="filterDiv users">Saim</div>
+            <div class="filterDiv cars">suzuki</div>
+            <div class="filterDiv buses">isozu</div>
+        </div>
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
